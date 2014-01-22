@@ -29,7 +29,8 @@ class FitbitIntraday:
             'steps': ('intradaySteps', 'column2d'),
             'calories': ('intradayCaloriesBurned', 'column2d'),
             'floors': ('intradayAltitude', 'column2d'),
-            'time_active': ('activitiesBreakdown', 'pie')
+            'time_active': ('activitiesBreakdown', 'pie'),
+            'sleep': ('intradaySleep', 'column2d')
         }
 
     def login(self, email, password):
